@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vh & Vw Units</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background: #333 url(https://source.unsplash.com/daily) no-repeat center center/cover fixed;
+            color: white;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            padding-top: 10rem;
+        }
+
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 1rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #f4f4f4;
+            color: #333;
+            padding: 0.7rem 2rem;
+            border-radius: 2rem;
+            opacity: .7;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        @media (max-height: 450px) {
+            header {
+                padding-top: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To Our Website</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora autem quia ea exercitationem, tempore consequatur!</p>
+        <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+        <h3>About Our Company</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum soluta tenetur accusantium molestiae veniam fugiat, quos corrupti doloremque at aspernatur aliquid eius asperiores sit illo! Vel officia dicta dolor eum enim voluptate corrupti ipsum optio sit, est voluptatem provident obcaecati quod deserunt! Explicabo natus, velit nobis provident quo maiores error.</p>
+    </section>
+</body>
+</html>
